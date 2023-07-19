@@ -4,7 +4,7 @@ const server = http.createServer((req,res) -> {
     res.writeHead(200, {
         "Content-type": "text/html",
     });
-    res.end("<h1>Hello world from openshift node.js</h1>");
+    res.end("<h1>Hello world from openshift node.js application</h1>");
 });
 
 server.listen(8000,() => {
